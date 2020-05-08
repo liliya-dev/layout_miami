@@ -47,7 +47,7 @@
       display: block;
       position: relative; }
       .mobile-menu__wrapper::after {
-        content: url(/images/vector-2.png);
+        content: url(../images/Vector-2.png);
         position: absolute;
         right: -1px;
         bottom: -1px;
@@ -64,7 +64,7 @@
     min-width: 100%;
     background-color: #0077ff; }
   .mobile-menu:checked ~ .mobile-menu__wrapper::after {
-    content: url(/images/vector-3.png);
+    content: url(../images/Vector-3.png);
     z-index: 3;
     position: absolute;
     right: -1px;
