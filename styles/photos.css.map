@@ -1,0 +1,1 @@
+{"version":3,"sources":["photos.scss"],"names":[],"mappings":"AAAA;EACE,YAAY;EACZ,aAAa,EAAA;;AAGf;EACE,YAAY;EACZ,aAAa,EAAA;;AAGf;EACE,YAAY;EACZ,aAAa,EAAA","file":"photos.css","sourcesContent":[".big-photo {\n  width: 673px;\n  height: 256px;\n}\n\n.small-photo {\n  width: 327px;\n  height: 256px;\n}\n\n.middle-photo {\n  width: 500px;\n  height: 256px;\n}\n"]}

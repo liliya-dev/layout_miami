@@ -1,0 +1,1 @@
+{"version":3,"sources":["logo.scss"],"names":[],"mappings":"AACA;EACE,YAAY;EACZ,YAAY,EAAA;;AAGd;EACE;IACE,UAAU;IACV,YAAY;IACZ,WAAW,EAAA,EACZ","file":"logo.css","sourcesContent":["\n.logo {\n  height: 76px;\n  width: 115px;\n}\n\n@media screen and (max-width: 960px) {\n  .logo {\n    z-index: 3;\n    height: 48px;\n    width: 73px;\n  }\n}\n"]}

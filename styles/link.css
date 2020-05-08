@@ -1,0 +1,13 @@
+.link {
+  color: #0077ff;
+  text-decoration: none;
+  -webkit-transition: 2s;
+  transition: 2s; }
+  .link:hover {
+    opacity: 0.7; }
+  .link:active {
+    color: #126cd3; }
+  .link:visited {
+    color: #07305f; }
+
+/*# sourceMappingURL=link.css.map */

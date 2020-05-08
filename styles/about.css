@@ -1,0 +1,23 @@
+.about {
+  display: grid;
+  grid-template-columns: 328px 500px;
+  -webkit-column-gap: 192px;
+     -moz-column-gap: 192px;
+          column-gap: 192px; }
+  .about__title {
+    margin-bottom: 48px; }
+
+@media screen and (max-width: 960px) {
+  .about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 360px;
+            flex: 1 0 360px; } }
+
+/*# sourceMappingURL=about.css.map */

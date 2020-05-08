@@ -1,0 +1,35 @@
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0; }
+
+.nav__item {
+  height: 32px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.nav__link {
+  display: inline-block;
+  padding: 8px 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 16px;
+  color: white;
+  border-radius: 8px;
+  -webkit-transition: color 3s;
+  transition: color 3s; }
+  .nav__link:hover {
+    color: #9fadc2; }
+  .nav__link:active {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px; }
+
+.is-active {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px; }
+
+/*# sourceMappingURL=navigation.css.map */

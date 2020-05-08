@@ -1,0 +1,48 @@
+.form {
+  width: 413px; }
+  .form__textarea {
+    height: 144px; }
+  .form__input {
+    height: 48px; }
+  .form__input, .form__textarea {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-bottom: 16px;
+    padding: 16px 0 16px 16px;
+    background: #f5f6ff;
+    border: 1px solid white;
+    border-radius: 8px;
+    -webkit-transition: 2s;
+    transition: 2s; }
+    .form__input:hover, .form__textarea:hover {
+      border: 2px solid #0077ff; }
+    .form__input:focus, .form__textarea:focus {
+      outline: none;
+      border: 4px solid #0077ff; }
+    .form__input::-webkit-input-placeholder, .form__textarea::-webkit-input-placeholder {
+      font-size: 14px;
+      line-height: 14px;
+      color: #bac2cf; }
+    .form__input::-moz-placeholder, .form__textarea::-moz-placeholder {
+      font-size: 14px;
+      line-height: 14px;
+      color: #bac2cf; }
+    .form__input:-ms-input-placeholder, .form__textarea:-ms-input-placeholder {
+      font-size: 14px;
+      line-height: 14px;
+      color: #bac2cf; }
+    .form__input::-ms-input-placeholder, .form__textarea::-ms-input-placeholder {
+      font-size: 14px;
+      line-height: 14px;
+      color: #bac2cf; }
+    .form__input::placeholder, .form__textarea::placeholder {
+      font-size: 14px;
+      line-height: 14px;
+      color: #bac2cf; }
+
+@media screen and (max-width: 960px) {
+  .form {
+    width: 100%; } }
+
+/*# sourceMappingURL=form.css.map */
