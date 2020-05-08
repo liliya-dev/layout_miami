@@ -698,7 +698,7 @@ h1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 359px;
-  background: url(/images/footer.png) no-repeat;
+  background: url(../images/footer.png) no-repeat;
   background-size: cover; }
 
 h1 {
