@@ -110,7 +110,7 @@ section {
 
 @font-face {
   font-family: "Roboto";
-  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
+  src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap);
   font-weight: bold;
   font-style: normal; }
 
@@ -216,7 +216,8 @@ h1 {
   color: #0077ff;
   text-decoration: none;
   -webkit-transition: 2s;
-  transition: 2s; }
+  transition: 2s;
+  font-weight: bold; }
   .link:hover {
     opacity: 0.7; }
   .link:active {
@@ -294,7 +295,7 @@ h1 {
 
 @font-face {
   font-family: "Roboto";
-  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
+  src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap);
   font-weight: bold;
   font-style: normal; }
 
@@ -317,7 +318,7 @@ h1 {
   padding: 24px 120px 48px;
   height: 700px;
   color: #fff;
-  background: url(/images/panorama.png) no-repeat;
+  background: url(../images/panorama.png) no-repeat;
   background-size: cover; }
   .header__top-row {
     display: -webkit-box;
