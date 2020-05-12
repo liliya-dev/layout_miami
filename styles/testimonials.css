@@ -24,7 +24,12 @@
   margin-bottom: 28px;
   display: block;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  -webkit-transition: 0.5s;
+  transition: 0.5s; }
+  .testimonials__person-photo:hover {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05); }
 
 @media screen and (max-width: 960px) {
   .testimonials__container {

@@ -49,8 +49,8 @@
       .mobile-menu__wrapper::after {
         content: url(../images/Vector-2.png);
         position: absolute;
-        right: -1px;
-        bottom: -1px;
+        bottom: -6px;
+        right: -9px;
         height: 12px;
         width: 18px; }
   .mobile-menu:checked ~ .nav-scroll {

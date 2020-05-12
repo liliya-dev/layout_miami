@@ -2,7 +2,12 @@
   border-radius: 8px;
   margin: 40px 0 24px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+          box-sizing: border-box;
+  -webkit-transition: 0.5s;
+  transition: 0.5s; }
+  .gallery__photo:hover {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05); }
 
 .gallery__container {
   display: -webkit-box;

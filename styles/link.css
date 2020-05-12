@@ -11,4 +11,10 @@
   .link:visited {
     color: #07305f; }
 
+.contact-link {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  color: #3d3d3d; }
+
 /*# sourceMappingURL=link.css.map */
