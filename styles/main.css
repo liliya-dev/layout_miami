@@ -102,6 +102,11 @@ section {
       flex-wrap: wrap;
   padding-bottom: 152px; }
 
+img:hover {
+  -webkit-transition: 2s;
+  transition: 2s;
+  opacity: 0.7; }
+
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
@@ -141,6 +146,7 @@ h1 {
 
 .button {
   display: block;
+  margin-top: 16px;
   padding: 19px 63px 19px 64px;
   height: 56px;
   -webkit-box-sizing: border-box;
@@ -312,6 +318,7 @@ h1 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  z-index: 100;
   position: sticky;
   top: -600px;
   margin-bottom: 104px;
@@ -469,17 +476,25 @@ h1 {
           box-sizing: border-box; }
 
 .gallery__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-preferred-size: 1024px;
+      flex-basis: 1024px;
+  max-width: 1024px;
   margin-top: -31px;
   margin-bottom: 40px; }
-  .gallery__container :nth-child(1),
-  .gallery__container :nth-child(4),
-  .gallery__container :nth-child(7) {
-    margin-right: 20px; }
 
 @media screen and (max-width: 1262px) and (min-width: 580px) {
   .gallery__photo {
-    width: 46.4%;
-    max-height: 55%; } }
+    width: 48.6%;
+    -o-object-fit: fill;
+       object-fit: fill; } }
 
 @media screen and (max-width: 579px) {
   .gallery__photo {
@@ -603,6 +618,7 @@ h1 {
 
 .button {
   display: block;
+  margin-top: 16px;
   padding: 19px 63px 19px 64px;
   height: 56px;
   -webkit-box-sizing: border-box;
@@ -785,8 +801,6 @@ h1 {
     content: url(../images/Vector-3.png);
     z-index: 3;
     position: absolute;
-    right: -1px;
-    bottom: -1px;
     height: 12px;
     width: 18px; } }
 
