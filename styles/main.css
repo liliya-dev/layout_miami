@@ -102,11 +102,8 @@ section {
       flex-wrap: wrap;
   padding-bottom: 152px; }
 
-img {
-  -webkit-transition: 1.5s;
-  transition: 1.5s; }
-  img:hover {
-    opacity: 0.75; }
+img:hover {
+  opacity: 0.75; }
 
 @font-face {
   font-family: "Roboto";
@@ -154,8 +151,8 @@ h1 {
           box-sizing: border-box;
   border-radius: 8px;
   outline: none;
-  -webkit-transition: 1.5s;
-  transition: 1.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   border: 2px solid #0077ff;
   font-size: 16px;
   line-height: 14px; }
@@ -222,8 +219,8 @@ h1 {
 .link {
   color: #0077ff;
   text-decoration: none;
-  -webkit-transition: 1.5s;
-  transition: 1.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   font-weight: bold; }
   .link:hover {
     opacity: 0.7; }
@@ -262,8 +259,8 @@ h1 {
     background: #f5f6ff;
     border: 1px solid white;
     border-radius: 8px;
-    -webkit-transition: 1.5s;
-    transition: 1.5s; }
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
     .form__input:hover, .form__textarea:hover {
       border: 2px solid #0077ff; }
     .form__input:focus, .form__textarea:focus {
@@ -406,8 +403,8 @@ h1 {
   line-height: 16px;
   color: white;
   border-radius: 8px;
-  -webkit-transition: color 1.5s;
-  transition: color 1.5s; }
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s; }
   .nav__link:hover {
     color: #9fadc2; }
   .nav__link:active {
@@ -626,8 +623,8 @@ h1 {
           box-sizing: border-box;
   border-radius: 8px;
   outline: none;
-  -webkit-transition: 1.5s;
-  transition: 1.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   border: 2px solid #0077ff;
   font-size: 16px;
   line-height: 14px; }

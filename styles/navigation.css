@@ -20,8 +20,8 @@
   line-height: 16px;
   color: white;
   border-radius: 8px;
-  -webkit-transition: color 1.5s;
-  transition: color 1.5s; }
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s; }
   .nav__link:hover {
     color: #9fadc2; }
   .nav__link:active {

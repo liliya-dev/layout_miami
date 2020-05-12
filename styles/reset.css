@@ -72,10 +72,7 @@ section {
       flex-wrap: wrap;
   padding-bottom: 152px; }
 
-img {
-  -webkit-transition: 1.5s;
-  transition: 1.5s; }
-  img:hover {
-    opacity: 0.75; }
+img:hover {
+  opacity: 0.75; }
 
 /*# sourceMappingURL=reset.css.map */

@@ -13,8 +13,8 @@
     background: #f5f6ff;
     border: 1px solid white;
     border-radius: 8px;
-    -webkit-transition: 1.5s;
-    transition: 1.5s; }
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
     .form__input:hover, .form__textarea:hover {
       border: 2px solid #0077ff; }
     .form__input:focus, .form__textarea:focus {
