@@ -10,6 +10,8 @@
             box-sizing: border-box;
     margin-bottom: 16px;
     padding: 16px 0 16px 16px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
     background: #f5f6ff;
     border: 1px solid white;
     border-radius: 8px;
@@ -25,22 +27,27 @@
       border: 1px solid #0077ff; }
     .form__input::-webkit-input-placeholder, .form__textarea::-webkit-input-placeholder {
       font-size: 14px;
+      font-family: Arial, Helvetica, sans-serif;
       line-height: 14px;
       color: #bac2cf; }
     .form__input::-moz-placeholder, .form__textarea::-moz-placeholder {
       font-size: 14px;
+      font-family: Arial, Helvetica, sans-serif;
       line-height: 14px;
       color: #bac2cf; }
     .form__input:-ms-input-placeholder, .form__textarea:-ms-input-placeholder {
       font-size: 14px;
+      font-family: Arial, Helvetica, sans-serif;
       line-height: 14px;
       color: #bac2cf; }
     .form__input::-ms-input-placeholder, .form__textarea::-ms-input-placeholder {
       font-size: 14px;
+      font-family: Arial, Helvetica, sans-serif;
       line-height: 14px;
       color: #bac2cf; }
     .form__input::placeholder, .form__textarea::placeholder {
       font-size: 14px;
+      font-family: Arial, Helvetica, sans-serif;
       line-height: 14px;
       color: #bac2cf; }
 

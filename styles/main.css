@@ -263,6 +263,8 @@ h1 {
             box-sizing: border-box;
     margin-bottom: 16px;
     padding: 16px 0 16px 16px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
     background: #f5f6ff;
     border: 1px solid white;
     border-radius: 8px;
@@ -278,22 +280,27 @@ h1 {
       border: 1px solid #0077ff; }
     .form__input::-webkit-input-placeholder, .form__textarea::-webkit-input-placeholder {
       font-size: 14px;
+      font-family: Arial, Helvetica, sans-serif;
       line-height: 14px;
       color: #bac2cf; }
     .form__input::-moz-placeholder, .form__textarea::-moz-placeholder {
       font-size: 14px;
+      font-family: Arial, Helvetica, sans-serif;
       line-height: 14px;
       color: #bac2cf; }
     .form__input:-ms-input-placeholder, .form__textarea:-ms-input-placeholder {
       font-size: 14px;
+      font-family: Arial, Helvetica, sans-serif;
       line-height: 14px;
       color: #bac2cf; }
     .form__input::-ms-input-placeholder, .form__textarea::-ms-input-placeholder {
       font-size: 14px;
+      font-family: Arial, Helvetica, sans-serif;
       line-height: 14px;
       color: #bac2cf; }
     .form__input::placeholder, .form__textarea::placeholder {
       font-size: 14px;
+      font-family: Arial, Helvetica, sans-serif;
       line-height: 14px;
       color: #bac2cf; }
 
@@ -328,9 +335,9 @@ h1 {
           justify-content: space-between;
   z-index: 100;
   position: sticky;
-  top: -576px;
+  top: -626px;
   margin-bottom: 104px;
-  padding: 24px 120px 48px;
+  padding: 24px 120px 20px;
   height: 700px;
   color: #fff;
   background: url(../images/panorama.png) no-repeat center;
